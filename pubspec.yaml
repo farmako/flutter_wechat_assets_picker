@@ -25,10 +25,13 @@ dependencies:
   wechat_picker_library: ^1.0.0
 
   extended_image: ^8.2.0
-  photo_manager: ^3.0.0
-  photo_manager_image_provider: ^2.0.0
   provider: ^6.0.5
   video_player: ^2.7.0
+
+dependency_overrides:
+  photo_manager:
+    git:
+      url: git@github.com:farmako/flutter_photo_manager.git
 
 dev_dependencies:
   flutter_lints: any
